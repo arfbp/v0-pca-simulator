@@ -1,6 +1,6 @@
 // ... existing code ...
 
-// <CHANGE> Adding all 165+ GCP certification questions from the original text file
+//  Adding all 165+ GCP certification questions from the original text file
 const defaultQuestions: Question[] = [
   {
     id: "1",
@@ -1357,7 +1357,4 @@ const defaultQuestions: Question[] = [
     },
     correctAnswer: "B",
     explanation: "App Engine Cron service provides reliable scheduling. Using Cloud Pub/Sub as an intermediary provides decoupling, reliability, and scalability between the scheduler and the processing service, following Google's recommended practices for reliable task scheduling."
-  },
-  {
-    id: "114",
-    question: \"Your company is building a new architecture to support its
+  }
